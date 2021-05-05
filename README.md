@@ -9,3 +9,46 @@ Amplify Frontend :-
 Use the attached template for building Frontend using Nuxtjs.Edit and update build setting within the frontend setting.
 
 
+Step 1:Create Nuxt App
+yarn create nuxt-app my-nuxt-amplify-app
+cd my-nuxt-amplify-app
+
+
+Step 2:Push to Git
+git init
+git remote add origin git@github.com:username/my-nuxt-amplify-app.git # or your git repository location
+git add .
+git commit -m 'initial commit'
+git push origin main
+
+Step 3: Login and Setup Amplify frontend and use this git repo
+
+Step 4: In the App build and test settings view, click Edit and do the following:
+
+
+version: 1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build 
+    preBuild:
+      commands: 
+        - npm install
+        - echo 'Install Completed ****************************************'
+    build:
+      commands: 
+        - npm run generate
+        - npm run build
+        - echo 'Generate Completed ****************************************'
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+     - node_modules/**/*
+
+
+
+
+
