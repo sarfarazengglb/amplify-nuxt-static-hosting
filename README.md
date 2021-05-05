@@ -33,12 +33,10 @@ frontend:
     preBuild:
       commands: 
         - npm install
-        - echo 'Install Completed ****************************************'
     build:
       commands: 
         - npm run generate
         - npm run build
-        - echo 'Generate Completed ****************************************'
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: dist
