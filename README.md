@@ -47,6 +47,6 @@ frontend:
      - node_modules/**/*
 ```
 
-<img src=“https://raw.githubusercontent.com/sarfarazengglb/amplify-nuxt-static-hosting/main/Screen%20Shot%202021-04-30%20at%205.41.51%20PM.png”>
+<img src="https://raw.githubusercontent.com/sarfarazengglb/amplify-nuxt-static-hosting/main/App.png">
 
 
