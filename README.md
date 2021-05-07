@@ -12,16 +12,16 @@ Use the attached amplify.yml configuration for building Frontend using Nuxtjs on
 
 
 ## Step 1:Create Nuxt App
-yarn create nuxt-app my-nuxt-amplify-app
-cd my-nuxt-amplify-app
+yarn create nuxt-app my-nuxt-amplify-app\
+cd my-nuxt-amplify-app\
 
 
 ## Step 2:Push to Git
-git init
-git remote add origin git@github.com:username/my-nuxt-amplify-app.git # or your git repository location
-git add .
-git commit -m 'initial commit'
-git push origin main
+git init\
+git remote add origin git@github.com:username/my-nuxt-amplify-app.git # or your git repository location\
+git add .\
+git commit -m 'initial commit'\
+git push origin main\
 
 ## Step 3: Login and Setup Amplify frontend and use this git repo
 
