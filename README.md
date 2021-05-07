@@ -11,19 +11,27 @@ Its a swiss army knife for frontend apps.Build your next Vue.js application with
 Use the attached amplify.yml configuration for building Frontend using Nuxtjs on Amplify Platform.Edit and update build setting within the frontend setting.
 
 
-## Step 1:Create Nuxt App
+## Step 1:Create Nuxt App and Test it locally
 yarn create nuxt-app my-nuxt-amplify-app\
 cd my-nuxt-amplify-app\
 yarn build
 
-## Step 2:Push to Git
+## Step 2:Push code to Git repo
 git init\
 git remote add origin git@github.com:username/my-nuxt-amplify-app.git # or your git repository location\
 git add .\
 git commit -m 'initial commit'\
 git push origin main
 
-## Step 3: Login and Setup Amplify frontend and use this git repo
+## Step 3: Create Amplify App in AWS Console.
+
+Login and Setup Amplify frontend and use this git repo
+
+
+## Step 3: Setup Frontend App
+https://aws.amazon.com/amplify/getting-started/?nc=sn&loc=4
+
+<img src="https://d1.awsstatic.com/AWS%20Amplify/Mobile%20site/Site-Merch_StaticWeb_Editorial.65a0b9bd03138a0aa8b74bd81b65a2ad1f199960.png">
 
 ## Step 4: In the App build and test settings view, click Edit and do the following:
 
