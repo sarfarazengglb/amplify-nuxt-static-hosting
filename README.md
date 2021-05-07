@@ -13,7 +13,8 @@ Use the attached amplify.yml configuration for building Frontend using Nuxtjs on
 
 ## Step 1:Create Nuxt App
 yarn create nuxt-app my-nuxt-amplify-app\
-cd my-nuxt-amplify-app
+cd my-nuxt-amplify-app\
+yarn build
 
 
 ## Step 2:Push to Git
