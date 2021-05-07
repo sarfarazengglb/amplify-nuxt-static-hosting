@@ -31,7 +31,7 @@ Login and Setup Amplify frontend and use this git repo
 ## Step 3: Setup Frontend App
 https://aws.amazon.com/amplify/getting-started/?nc=sn&loc=4
 
-<img src="https://d1.awsstatic.com/AWS%20Amplify/Mobile%20site/Site-Merch_StaticWeb_Editorial.65a0b9bd03138a0aa8b74bd81b65a2ad1f199960.png">
+<img src="https://raw.githubusercontent.com/sarfarazengglb/amplify-nuxt-static-hosting/main/app_2.PNG">
 
 ## Step 4: In the App build and test settings view, click Edit and do the following:
 
