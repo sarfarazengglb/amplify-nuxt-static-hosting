@@ -16,7 +16,6 @@ yarn create nuxt-app my-nuxt-amplify-app\
 cd my-nuxt-amplify-app\
 yarn build
 
-
 ## Step 2:Push to Git
 git init\
 git remote add origin git@github.com:username/my-nuxt-amplify-app.git # or your git repository location\
