@@ -5,7 +5,7 @@ It's a set of tools and services that can be used together or on their own, to h
 powered by AWS. You can build frontend within few minutes utilizing AWS infrastructure including CDN(Cloudfront, Route53, etc)
 
 ## NuxtJS
-Its a swiss army knife for frontend apps.Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful.
+Its a swiss army knife for frontend apps based on Vue.js(open source framework).
 
 ## Amplify Frontend :-
 Use the attached amplify.yml configuration for building Frontend using Nuxtjs on Amplify Platform.Edit and update build setting within the frontend setting.
