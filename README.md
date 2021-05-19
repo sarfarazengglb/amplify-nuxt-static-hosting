@@ -8,7 +8,7 @@ powered by AWS. You can build frontend within few minutes utilizing AWS infrastr
 Its a swiss army knife for frontend apps based on Vue.js(open source framework).
 
 ## Amplify Frontend :-
-Use the attached amplify.yml configuration for building Frontend using Nuxtjs on Amplify Platform.Edit and update build setting within the frontend setting.
+Use the attached amplify.yml configuration for building Frontend using Nuxtjs on Amplify Platform.Edit and update build setting within the frontend setting.Its not mature Platform yet(when i wrote this 18 May 2021)
 
 
 ## Step 1:Create Nuxt App and Test it locally
